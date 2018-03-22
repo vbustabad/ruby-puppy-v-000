@@ -9,7 +9,7 @@ class Dog
   end
 
   def self.all
-    @@all.collect do |dog|
+    @@all.map do |dog|
       puts @name
     end
   end
